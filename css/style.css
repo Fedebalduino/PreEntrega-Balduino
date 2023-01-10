@@ -1,0 +1,1183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* TIPOGRAFÍA */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* ----------------------------------------------------------------- */
+
+/* GENERAL A TODAS LAS PÁGINAS */
+body{
+    background-image: url(../assets/img/londres.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 100%;
+}
+
+/* HEADER GENERAL */
+.contenedor-header{
+    background-color: rgba(228, 207, 177, 0.877);
+    display:flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 110px;
+}
+
+.contenedor-header .logo-silueta{
+    background-color: rgba(228, 207, 177, 0.877);
+    margin: 10px;
+    padding: 10px;
+    display: contents;
+}
+
+.contenedor-header .logo-silueta img{
+    margin-left: 52px;
+    padding: 8;
+    width: 50px;
+}
+
+.botones-header{
+    font-size: 30px;
+    -webkit-text-stroke: 2px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.botones-header .nav-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+/* BARRA DE NAVEGACIÓN GENERAL */
+.nav-bar li{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+}
+
+
+
+/* FOOTER GENERAL */
+footer {
+    background-color: rgba(228, 207, 177, 0.877);
+    width: 100%;
+    height: 80px;
+}
+
+.contenedor-footer img {
+    width: 50px;
+
+}
+
+.seccion-footer {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+
+    gap: 50px;
+    margin-top: 10px;
+}
+
+.contenedor-footer-redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-footer.facebook img {
+    width: 32px;
+}
+
+.contenedor-footer.instagram img {
+    width: 32px;
+}
+
+main {
+    min-height: 60vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+
+.titulo-footer p {
+    font-size: 20px;
+}
+
+footer hr {
+    height: 4px;
+    background-color: black;
+    border: black;
+}
+
+.contenedor-general-footer-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* BOTON +INFO */
+    .info a:hover{
+    background-color: rgb(0, 0, 0);
+    color:rgba(228, 207, 177, 0.877);
+    }
+
+    .info a{
+    text-decoration: none;
+    font-style: none;
+    color: black;
+    background-color:rgba(228, 207, 177, 0.877);
+    border-color:black;
+    border-width: 3px;
+    border-style:inset;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width: 180px;
+    transition: background-color .5s;
+    }
+
+.nav-bar li a:hover{
+    background-color: rgb(0, 0, 0);
+    color:rgba(228, 207, 177, 0.877);
+    transition: background-color .5s;
+}
+
+
+
+
+/* ----------------------------------------------------------------- */
+
+
+
+
+
+/* PÁGINA INDEX */
+/* MAIN */
+.historia-sherlock-holmes {
+    padding: 0 3%;
+}
+
+.titulo-historia {
+    text-align: center;
+    background-color:rgba(228, 207, 177, 0.877);
+    font-size: 50px;
+}
+
+.contenido-historia {
+    text-align: left;
+    background-color:rgba(228, 207, 177, 0.877);
+    font-size: 18px;
+    align-items: center;
+}
+
+
+
+
+/* ----------------------------------------------------------------- */
+
+
+
+
+
+/* PÁGINA AUTOR */
+
+.titulo-biografia {
+    text-align: center;
+    background-color:rgba(228, 207, 177, 0.877);
+    border-width: 2px;
+    margin-top: -440px;
+    font-size: 30px;
+}
+
+.biografia p{
+    text-align: left;
+    background-color:rgba(228, 207, 177, 0.877);
+    font-size: 18px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* IMÁGENES */
+
+/* imagen1 */
+.artur-conan-doyle-1 img{
+    width: 150px;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+/* imagen2 */
+.artur-conan-doyle-2 img{
+    width: 400px;
+    margin-left: 900px;
+    background-color:rgba(228, 207, 177, 0.877);
+    font-size: 50px;
+}
+
+/* BOTON +INFO */
+.info-biografia{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+}
+.info-biografia a{
+    text-decoration: none;
+    font-style: none;
+    color: black;
+    background-color:rgba(228, 207, 177, 0.877);
+    border-color:black;
+    border-width: 3px;
+    border-style:inset;
+    width: 25%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/* ----------------------------------------------------------------- */
+
+
+
+
+
+/* PÁGINA LIBROS */
+
+/* GENERALES */
+
+/* TITULO (h1)*/
+.libros{
+    text-align: center;
+    background-color:rgba(228, 207, 177, 0.877);
+    border-width: 2px;
+    margin-top: -70px;
+    font-size: 30px;
+}
+
+/* TITULOS DE LOS LIBROS */
+.titulo{
+    text-align: center;
+    color: black;
+    background-color:rgba(228, 207, 177, 0.877);
+    border-color:black;
+    border-width: 2px;
+    border-style:inset;
+    width: 100%;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+/* RESUMENES (p) */
+.resumen{
+    text-align: center;
+    background-color:rgba(228, 207, 177, 0.877);
+    width: 100%;
+    font-size: 22px;
+    text-align: left;
+    margin-top: 10px;
+}
+.resumen::first-letter{
+    float: left;
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    font-size: 400%;
+    text-align: right;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+/* BOTON +INFO */
+.info{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+}
+.info a{
+    text-decoration: none;
+    font-style: none;
+    color: black;
+    background-color:rgba(228, 207, 177, 0.877);
+    border-color:black;
+    border-width: 3px;
+    border-style:inset;
+    width: 25%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+/* <!-- ESTUDIO EN ESCARLATA - 1887 --> */
+
+.imagen-estudio-en-escarlata-1887{
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 150px;
+}
+
+/* El signo de los cuatro - 1890 */
+.imagen-el-signo-de-los-cuatro-1890{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 150px;
+}
+
+/* Las aventuras de Sherlock Holmes - 1891/92 */
+.imagen-las-aventuras-de-sherlock-holmes-1891-92{
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 135px;
+}
+
+/* las-memorias-de-sherlock-holmes-1892-93 */
+.imagen-las-memorias-de-sherlock-holmes-1892-93{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 90px;
+}
+
+/* El sabueso de los Baskervilles - 1901/02 */
+.imagen-el-sabueso-de-los-baskervilles-1901-02{
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 85px;
+}
+
+/* el-regreso-de-sherlock-holmes-1903 */
+.imagen-el-regreso-de-sherlock-holmes-1903{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 100px;
+}
+
+/* imagen-su-ultima-reverencia-1908-17 */
+.imagen-su-ultima-reverencia-1908-17{
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 100px;
+}
+
+/* imagen-el-valle-del-terror-1914-15 */
+.imagen-el-valle-del-terror-1914-15{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 125px;
+}
+
+/* el-archivo-de-sherlock-holmes-1924-26 */
+.imagen-el-archivo-de-sherlock-holmes-1924-26{
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 110px;
+}
+
+
+
+
+
+/* ----------------------------------------------------------------- */
+
+
+
+
+
+/* PÁGINA PELICULAS */
+
+/* GENERAL */
+
+/* TITULO (h1)*/
+.peliculas{
+    text-align: center;
+    background-color:rgba(228, 207, 177, 0.877);
+    border-width: 2px;
+    margin-top: -70px;
+    font-size: 30px;
+}
+
+.titulo-pelicula{
+    text-align: center;
+    color: black;
+    background-color:rgba(228, 207, 177, 0.877);
+    border-color:black;
+    border-width: 2px;
+    border-style:inset;
+    width: 100%;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+/* Resumen */
+.resumen-pelicula{
+    text-align: center;
+    background-color:rgba(228, 207, 177, 0.877);
+    width: 100%;
+    font-size: 22px;
+    text-align: left;
+    margin-top: 10px;
+}
+.resumen-pelicula::first-letter{
+    float: left;
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    font-size: 400%;
+    text-align: right;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+  /* Sherlock Holmes perplejo - 1900/1903 */
+.imagen-sherlock-holmes-perplejo-1900-1903{
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 250px;
+}
+
+  /* sherlock-holmes-1916 */
+.imagen-sherlock-holmes-1916{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 150px;
+}
+
+  /* sherlock-holmes-1922 */
+.imagen-sherlock-holmes-1922{
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 120px;
+}
+/* el-regreso-de-sherlock-holmes-1929 */
+.imagen-el-regreso-de-sherlock-holmes-1929{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 150px;
+}
+
+/* el-hombre-que-fue-sherlock-holmes-1937 */
+.imagen-el-hombre-que-fue-sherlock-holmes-1937{
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 90px;
+}
+
+/* el-sabueso-de-los-baskervilles-1939 */
+.imagen-el-sabueso-de-los-baskervilles-1939{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 130px;
+}
+
+/* las-aventuras-de-sherlock-holmes-1939 */
+.imagen-las-aventuras-de-sherlock-holmes-1939{
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 150px;
+}
+
+/* la-voz-del-terror-1942 */
+.imagen-la-voz-del-terror-1942{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 130px;
+}
+
+/* el-arma-secreta-1942 */
+.imagen-el-arma-secreta-1942{
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 70px;
+}
+
+/* sherlock-holmes-desafia-a-la-muerte-1943 */
+.imagen-sherlock-holmes-desafia-a-la-muerte-1943{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 70px;
+}
+
+/* sherlock-holmes-en-washington-1943 */
+.imagen-sherlock-holmes-en-washington-1943{
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 40px;
+}
+
+/* la-garra-escarlata-1944 */
+.imagen-la-garra-escarlata-1944{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 140px;
+}
+
+/* la-perla-maldita-1944 */
+.imagen-la-perla-maldita-1944{
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 58px;
+}
+
+/* la-mujer-araña-1944 */
+.imagen-la-mujer-araña-1944{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 55px;
+}
+
+/* la-casa-del-terror-1945 */
+.imagen-la-casa-del-terror-1945{
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 40px;
+}
+
+/* la-dama-de-verde-1945 */
+.imagen-la-dama-de-verde-1945{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 90px;
+}
+
+/* persecucion-en-argel-1945 */
+.imagen-persecucion-en-argel-1945{
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 40px;
+}
+
+/* terror-en-la-noche-1946 */
+.imagen-terror-en-la-noche-1946{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 140px;
+}
+
+/* vestida-para-matar-1946 */
+.imagen-vestida-para-matar-1946{
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 130px;
+}
+
+/* el-sabueso-de-los-baskervilles-1959 */
+.imagen-el-sabueso-de-los-baskervilles-1959{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 160px;
+}
+
+/* el-collar-de-la-muerte-1962 */
+.imagen-el-collar-de-la-muerte-1962{
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 90px;
+}
+
+/* la-vida-privada-de-sherlock-holmes-1970 */
+.imagen-la-vida-privada-de-sherlock-holmes-1970{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 140px;
+}
+
+/* la-aventura-del-hermano-inteligente-de-sherlock-holmes-1975 */
+.imagen-la-aventura-del-hermano-inteligente-de-sherlock-holmes-1975{
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 140px;
+}
+
+/* ataque-al-orient-express-1976 */
+.imagen-ataque-al-orient-express-1976{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 115px;
+}
+
+/* asesinato-por-decreto-1979 */
+.imagen-asesinato-por-decreto-1979{
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 120px;
+}
+
+/* el-joven-sherlock-holmes-1985 */
+.imagen-el-joven-sherlock-holmes-1985{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 120px;
+}
+
+/* sin-pistas-1988 */
+.imagen-sin-pistas-1988{
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 70px;
+}
+
+/* el-sabueso-de-los-baskervilles-1988 */
+.imagen-el-sabueso-de-los-baskervilles-1988{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 110px;
+}
+
+/* sherlock-holmes-en-caracas-1991 */
+.imagen-sherlock-holmes-en-caracas-1991{
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 70px;
+}
+
+/* sherlock-holmes-2009 */
+.imagen-sherlock-holmes-2009{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 85px;
+}
+
+/* sherlock-holmes-juego-de-sombras-2011 */
+.imagen-sherlock-holmes-juego-de-sombras-2011{
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 120px;
+}
+
+/* holmes-&-watson-madrid-days-2012 */
+.imagen-holmes-y-watson-madrid-days-2012{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 90px;
+}
+
+/* mr-holmes-2015 */
+.imagen-mr-holmes-2015{
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 140px;
+}
+
+/* holmes-&-watson-2018 */
+.imagen-holmes-y-watson-2018{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 75px;
+}
+
+/* enola-holmes-2020 */
+.imagen-enola-holmes-2020{
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 90px;
+}
+
+/* enola-holmes-2-2022 */
+.imagen-enola-holmes-2-2022{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+/* PÁGINA SERIES */
+.series{
+    text-align: center;
+    background-color:rgba(228, 207, 177, 0.877);
+    border-width: 2px;
+    margin-top: -70px;
+    font-size: 30px;
+}
+
+.titulo-series{
+    text-align: center;
+    color: black;
+    background-color:rgba(228, 207, 177, 0.877);
+    border-color:black;
+    border-width: 2px;
+    border-style:inset;
+    width: 100%;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.resumen-series{
+    text-align: center;
+    background-color:rgba(228, 207, 177, 0.877);
+    width: 100%;
+    font-size: 22px;
+    text-align: left;
+    margin-top: 10px;
+}
+.resumen-series::first-letter{
+    float: left;
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    font-size: 400%;
+    text-align: right;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+  /* las-aventuras-de-sherlock-holmes-1984-1994 */
+.imagen-las-aventuras-de-sherlock-holmes-1984-1994{
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 130px;
+}
+
+  /* sherlock-holmes-en-el-siglo-xxii-1999-2001 */
+.imagen-sherlock-holmes-en-el-siglo-xxii-1999-2001{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 160px;
+}
+
+  /* sherlock-2010-2017 */
+.imagen-sherlock-2010-2017{
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 150px;
+}
+
+  /* elementary-2012-2019 */
+.imagen-elementary-2012-2019{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 170px;
+}
+
+
+
+
+
+/* ----------------------------------------------------------------- */
+
+
+
+
+
+/* RESPONSIVE WEB DESIGN */
+
+/* RESPONSIVE DESKTOP */
+@media (min-width: 1023px) {
+/* MENU HAMBURGUESA DESKTOP */
+.respmenu {
+    display: none;
+    }
+}
+
+/* RESPONSIVE TABLET */
+@media (min-width: 768px) and (max-width: 1023px){
+    /* MENU HAMBURGUESA TABLET */
+.respmenu ul{
+    display: none;
+    }
+
+.respmenu input:checked  ~ ul{
+    display:block;
+    top: 80px;
+    position: absolute;
+    right: 0px;
+    }
+
+.respmenu input {
+    display: none;
+    }
+
+.respmenu label {
+    box-sizing: border-box;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+    }
+
+    /* Estilo del boton cuando se pasa el mouse por encima*/
+    .respmenu label:hover{
+    background: rgba(228, 207, 177, 0.877);
+    }
+
+    /* Estilo del boton cuando el menú está expandido*/
+    .respmenu input:checked ~ label {
+    background: rgba(197, 178, 152, 0.877);
+    }
+
+    .respmenu ul{
+    margin-top:0;
+    padding: 0;
+    width: 200px;
+    }
+
+    .respmenu li {
+    display: block;
+    background: black;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid rgba(228, 207, 177, 0.877);
+    }
+
+    .respmenu li a{
+    text-decoration: none;
+    color: rgba(228, 207, 177, 0.877);
+    }
+
+    /*Estilo cuando el mouse pasa encima de cada link del menu*/
+    .respmenu li:hover {
+    filter: brightness(110%);
+    }
+
+    .respmenu li a:hover{
+        background-color: rgba(228, 207, 177, 0.877);
+        color: black
+    }
+    .botones-header{
+    display: none;
+    }
+
+    .contenedor-header {
+    justify-content: space-around;
+    }
+
+
+
+    /* PAGINA LIBROS */
+
+.libros{
+    font-size: 25px;
+}
+
+.titulo{
+    font-size: 20px;
+}
+}
+
+
+
+
+
+/* ----------------------------------------------------------------- */
+
+
+
+
+
+/* RESPONSIVE MOBILE */
+@media (min-width: 320px) and (max-width: 768px){
+    /* MENU HAMBURGUESA MOBILE */
+    .respmenu ul{
+        display: none;
+        }
+    
+    .respmenu input:checked  ~ ul{
+        display:block;
+        top: 80px;
+        position: absolute;
+        right: 0px;
+        }
+    
+    .respmenu input {
+        display: none;
+        }
+    
+    .respmenu label {
+        box-sizing: border-box;
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 5px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-weight: bold;
+        text-align: center;
+        user-select: none;
+        }
+    
+        /* Estilo del boton cuando se pasa el mouse por encima*/
+        .respmenu label:hover{
+        background: rgba(228, 207, 177, 0.877);
+        }
+    
+        /* Estilo del boton cuando el menú está expandido*/
+        .respmenu input:checked ~ label {
+        background: rgba(197, 178, 152, 0.877);
+        }
+    
+        .respmenu ul{
+        margin-top:0;
+        padding: 0;
+        width: 200px;
+        }
+    
+        .respmenu li {
+        display: block;
+        background: black;
+        margin: 0;
+        padding: 10px;
+        list-style: none;
+        border-bottom: 1px solid rgba(228, 207, 177, 0.877);
+        }
+    
+        .respmenu li a{
+        text-decoration: none;
+        color: rgba(228, 207, 177, 0.877);
+        }
+    
+        /*Estilo cuando el mouse pasa encima de cada link del menu*/
+        .respmenu li:hover {
+        filter: brightness(110%);
+        }
+    
+        .respmenu li a:hover{
+            background-color: rgba(228, 207, 177, 0.877);
+            color: black
+        }
+
+    .botones-header{
+    display: none;
+    }
+
+    .contenedor-header {
+    justify-content: space-around;
+    }
+
+
+
+    /* PÁGINA LIBROS */
+    .libros{
+    font-size: 20px;
+    }
+    .titulo{
+    font-size: 15px;
+    }
+    .resumen{
+    font-size: 15px;
+    }
+    .imagen{
+        display: flex;
+        justify-content: center;
+    }
+    .info{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    }
+    .info a{
+    text-decoration: none;
+    font-style: none;
+    color: black;
+    background-color:rgba(228, 207, 177, 0.877);
+    border-color:black;
+    border-width: 3px;
+    border-style:inset;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width: 180px;
+    }
+    .contenedor-header{
+        background-color:rgba(228, 207, 177, 0.877);
+    }
+    .libros{
+        background-color:rgba(228, 207, 177, 0.877);
+    }
+    .titulo{
+        background-color:rgba(228, 207, 177, 0.877);
+    }
+    .resumen{
+        background-color:rgba(228, 207, 177, 0.877);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
